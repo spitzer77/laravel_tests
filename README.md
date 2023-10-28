@@ -15,7 +15,7 @@ PHP 8.0+, PHP SQLite lib, Git, NPM, Composer (PHP 8.0+)
 6) Set chmod for SQLite database file:
 - <b>sudo chmod 777 -R ./database/</b>
 - <b>sudo chmod 777 -R ./database/database.sqlite</b>
-7) Build the project: <b>npm run build</b>
+7) Build the project: <b>sudo npm run build</b>
 8) Run virtualhost at webserver:<br>
 **Apache2**: put <i>DocumentRoot /var/www/laravel_tests/public</i> to _<Virtualhost *:8814>_<br>
 **nginx**: put _root /var/www/laravel_tests/public_ to _server { /settings/ }_
